@@ -1,9 +1,9 @@
 <div align="center">
-  <img src="assets/profile-picture.jpg" width="200" alt="Banner image for Kacper.space">
+  <img src="assets/profile-picture.jpg" width="400" alt="Banner image for Kacper.space">
   <h1><strong>Kacper Bazan</strong></h1>
 </div>
 
-<div align="justify">
+<div align="center">
   <p>
     <em><strong>Kacper.space</strong> is my personal website. Turning the world from all cap to all Kap™.</em>
   </p>
@@ -11,15 +11,15 @@
 
 ---
 
-## 👽 About the Website
+## 👽 About my Website
 
 <img src="assets/hot-stage.jpg" align="right" width="300" alt="Website preview">
 
 `Kacper.space` ain't nothing fancy. Just a digitzed showcase of who I am, what I'm working on, and the ideas buzzing around in my cluttered head.
 
-Features include:
+**Features include:**
 - 🛠️ **Projects**: The stuff I'm proud of.
-- 📄 **Resume**: The boring document your company craves.
+- 📄 **Resume**: The boring document your company wants.
 - 🧠 **Brain Dump**: Stories, shpiels, and sagas.
 
 Check me out at [Kacper.space](https://kacper.space).
@@ -28,40 +28,23 @@ Check me out at [Kacper.space](https://kacper.space).
 
 ## 🌟 Highlights
 
-<details>
-  <summary>📸 Screenshots</summary>
-  <p align="center">
-    <img src="IMAGE_URL" width="600" alt="Screenshot 1">
-    <img src="IMAGE_URL" width="600" alt="Screenshot 2">
-  </p>
-</details>
+Here's a sneak peek at some of the things I'm working on:
 
-<details>
-  <summary>🔧 Technologies</summary>
-  <ul>
-    <li>HTML5 & CSS3</li>
-    <li>JavaScript (ES6+)</li>
-    <li>React / Vue.js</li>
-    <li>Node.js / Express</li>
-    <li>MongoDB / SQL</li>
-  </ul>
-</details>
+### Projects
+<img src="assets/project1.jpg" width="600" alt="Project 1">
+**Project Name 1**: A quick description. [More info](link-to-project).
+
+<img src="assets/project2.jpg" width="600" alt="Project 2">
+**Project Name 2**: Another brief description. [Check it out](link-to-project).
+
+### Latest Musings
+- **Blog Post Title**: A short excerpt or teaser of the post. [Read more](link-to-post).
+
+### What's Cooking?
+- **Current Project/Experiment**: Here’s what I’m currently tinkering with.
 
 ---
 
-## 📚 How to Use
+## 📬 Get in Touch
 
-To clone and run this website, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
-
-```bash
-# Clone this repository
-$ git clone https://github.com/yourusername/kacper.space.git
-
-# Go into the repository
-$ cd kacper.space
-
-# Install dependencies
-$ npm install
-
-# Run the app
-$ npm start
+Got a question, a project in mind, or just want to say hi? Feel free to reach out to me [here](mailto:email@example.com), or connect with me on [LinkedIn](your-linkedin-profile).
