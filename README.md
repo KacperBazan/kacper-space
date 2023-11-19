@@ -28,7 +28,7 @@ Check me out at [Kacper.space](https://kacper.space).
 
 ## 🌟 Highlights
 
-Here's a sneak peek at some of the things I'm working on:
+Here's some of the cool things I've worked on:
 
 ### Projects
 <img src="assets/project1.jpg" width="600" alt="Project 1">
@@ -37,14 +37,14 @@ Here's a sneak peek at some of the things I'm working on:
 <img src="assets/project2.jpg" width="600" alt="Project 2">
 **Project Name 2**: Another brief description. [Check it out](link-to-project).
 
-### Latest Musings
-- **Blog Post Title**: A short excerpt or teaser of the post. [Read more](link-to-post).
-
-### What's Cooking?
-- **Current Project/Experiment**: Here’s what I’m currently tinkering with.
-
 ---
 
 ## 📬 Get in Touch
 
-Got a question, a project in mind, or just want to say hi? Feel free to reach out to me [here](mailto:email@example.com), or connect with me on [LinkedIn](your-linkedin-profile).
+Send me a joke, comment, idea, critique, or a hello on the following platforms:
+
+* <img src="./assets/instagram-icon.png" width="15px;"/> [Instagram (@kacperbazan_)](https://www.instagram.com/kacperbazan_)
+* <img src="./assets/linkedin-icon.png" width="15px;"/> [LinkedIn (@kacper-bazan)](https://www.linkedin.com/in/kacper-bazan/)
+* <img src="./assets/linktree-icon.png" width="15px;"/> [LinkTree (@kacperb)](https://www.linkedin.com/in/kacper-bazan/)
+* <img src="./assets/youtube-icon.png" width="15px;"/> [YouTube (@thatskap)](https://www.linkedin.com/in/kacper-bazan/)
+* <img src="./assets/simpleshapescomics-icon.jpg" width="15px;"/> [Comic Strips (@simpleshapescomics)](https://www.instagram.com/simpleshapescomics/)
