@@ -1,6 +1,8 @@
 <div align="center">
-  <img src="assets/profile-picture.jpg" width="400" alt="Banner image for Kacper.space">
-  <h1><strong>Kacper Bazan</strong></h1>
+  <a href="https://kacper.space">
+    <img src="assets/profile-picture.jpg" width="400" alt="Banner image for Kacper.space">
+    <h1><strong>Kacper Bazan</strong></h1>
+  </a>
 </div>
 
 <div align="center">
@@ -15,7 +17,7 @@
 
 <img src="assets/hot-stage.jpg" align="right" width="300" alt="Website preview">
 
-`Kacper.space` ain't nothing fancy. Just a digitzed showcase of who I am, what I'm working on, and the ideas buzzing around in my cluttered head.
+This ain't anything fancy. Just a digitzed showcase of who I am, what I'm working on, and the ideas buzzing around in my cluttered head.
 
 **Features include:**
 - 🛠️ **Projects**: The stuff I'm proud of.
