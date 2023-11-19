@@ -1,30 +1,28 @@
 <div align="center">
-  <img src="IMAGE_URL" alt="Banner image for Kacper.space">
-  <h1>Welcome to Kacper.space</h1>
+  <img src="assets/profile-picture.jpg" width="200" alt="Banner image for Kacper.space">
+  <h1><strong>Kacper Bazan</strong></h1>
 </div>
 
 <div align="justify">
   <p>
-    <strong>Kacper.space</strong> is a personal canvas in the vast universe of the internet. It's where creativity meets innovation, a place to showcase my professional journey, projects, and interests. Step into my world and let's explore the digital space together!
+    <em><strong>Kacper.space</strong> is my personal website. Turning the world from all cap to all Kap™.</em>
   </p>
 </div>
 
 ---
 
-## 🚀 About the Website
+## 👽 About the Website
 
-<img src="IMAGE_URL" align="right" width="300" alt="Website preview">
+<img src="assets/hot-stage.jpg" align="right" width="300" alt="Website preview">
 
-`Kacper.space` is more than just a website — it's a digital portfolio, a blog, and a playground for my latest tech experiments. 
+`Kacper.space` ain't nothing fancy. Just a digitzed showcase of who I am, what I'm working on, and the ideas buzzing around in my cluttered head.
 
 Features include:
-- 🎨 **Portfolio**: A gallery of my latest work and projects.
-- 📝 **Blog**: Thoughts on technology, design, and innovation.
-- 🛠️ **Tools I Use**: A list of technologies and tools that power my projects.
+- 🛠️ **Projects**: The stuff I'm proud of.
+- 📄 **Resume**: The boring document your company craves.
+- 🧠 **Brain Dump**: Stories, shpiels, and sagas.
 
-To see it live, visit [Kacper.space](https://kacper.space)!
-
-<br clear="right"/>
+Check me out at [Kacper.space](https://kacper.space).
 
 ---
 
