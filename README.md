@@ -5,9 +5,10 @@
   </a>
 </div>
 
+
 <div align="center">
   <p>
-    <em><strong>Kacper.space</strong> is my personal website. Turning the world from all cap to all Kap™.</em>
+    <em><strong><a href="https://kacper.space">Kacper.space</a></strong> is my personal website. Turning the world from all cap to all Kap™.</em>
   </p>
 </div>
 
@@ -50,3 +51,4 @@ Send me a joke, comment, idea, critique, or a hello on the following platforms:
 * <img src="./assets/linktree-icon.png" width="15px;"/> [LinkTree (@kacperb)](https://www.linkedin.com/in/kacper-bazan/)
 * <img src="./assets/youtube-icon.png" width="15px;"/> [YouTube (@thatskap)](https://www.linkedin.com/in/kacper-bazan/)
 * <img src="./assets/simpleshapescomics-icon.jpg" width="15px;"/> [Comic Strips (@simpleshapescomics)](https://www.instagram.com/simpleshapescomics/)
+
