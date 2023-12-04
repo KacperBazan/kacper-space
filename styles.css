@@ -1,14 +1,8 @@
+/* CSS for My Website */
 
-/* CSS for My Website with Custom Font */
-
-@font-face {
-    font-family: 'Kap';
-    src: url('fonts/Kap.ttf') format('truetype');
-}
-
-/* Applying the custom font to the main heading */
+/* Applying Helvetica font to the main heading */
 h1 {
     text-align: center;
     color: blue; /* Change this color as needed */
-    font-family: 'Helvetica';
+    font-family: 'Helvetica', sans-serif;
 }
