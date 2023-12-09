@@ -3,6 +3,18 @@
 /* Applying Helvetica font to the main heading */
 h1 {
     text-align: center;
-    color: blue; /* Change this color as needed */
-    font-family: 'Helvetica', sans-serif;
+    color: #444444; /* Change this color as needed */
+    font-family: 'Helvetica CE', sans-serif;
 }
+
+/* Applying Helvetica font to the subheading */
+h2 {
+    text-align: left;
+    color: #444444; /* Change this color as needed */
+    font-family: 'Helvetica CE', sans-serif;
+}
+
+body {
+    background-color:#FFFFFF; /* Change this color as needed */
+}
+
