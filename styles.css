@@ -1,20 +1,43 @@
-/* CSS for My Website */
-
-/* Applying Helvetica font to the main heading */
-h1 {
-    text-align: center;
-    color: #444444; /* Change this color as needed */
-    font-family: 'Helvetica CE', sans-serif;
-}
-
-/* Applying Helvetica font to the subheading */
-h2 {
-    text-align: left;
-    color: #444444; /* Change this color as needed */
-    font-family: 'Helvetica CE', sans-serif;
+@font-face {
+    font-family: 'Mona Sans';
+    src:
+        url('Mona-Sans.woff2') format('woff2 supports variations'),
+        url('Mona-Sans.woff2') format('woff2-variations');
+    font-weight: 200 900;
+    font-stretch: 75% 125%;
 }
 
 body {
-    background-color:#FFFFFF; /* Change this color as needed */
+    margin: 40px auto;
+    max-width: 650px;
+    line-height: 1.6;
+    font-family: 'Mona-Sans', sans-serif;
+    font-size: 16px;
+    color: #454545;
+    padding: 0 10px;
 }
 
+h1,
+h2,
+h3 {
+    line-height: 1.2;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* Creates 3 columns */
+    grid-gap: 10px;
+    /* Adjusts the gap between grid items */
+}
+
+.image-grid a {
+    display: block;
+}
+
+.image-grid img {
+    width: 100%;
+    /* Makes images fully occupy their grid cell */
+    height: auto;
+    /* Keeps image aspect ratio intact */
+}
