@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projects</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+
+<body>
+    <h1>ME360 Product Design</h1>
+    <p>These are all the projects I have done for my undergraduate ME360 product design class
+        from Boston University. The goals of this class were to learn how to design and prototype
+        different engineering projects. These skills were developed through three different projects:
+        the gasket project, the 2.5 DOF Cartesian motion sytem, and the motor speed controller.
+    </p>
+    <h1>Assignment 1 - Gasket</h1>
+    <p>The first project was to design a gasket that would be located on an aluminum block with pre
+        machined holes, slots, and alignment pins. This was an exercise in using calipers to accurately measure
+        every dimenion of the block and then designing a gasket that would fit perfectly on the block.
+        Below you can see the sketch of the gasket along with the measured dimensions (all values are
+        plus or minus 0.001" due to caliper accuracy). Next, a CAD model was made of the gasket in order
+        to define toolpaths in GibbsCAM. Once tools paths were defined, a thin piece of plastic was placed in
+        a CNC mill to perform the toolpaths. Things to note were the double sided tape used to hold the plastic
+        in place. The final product was a gasket that fit perfectly on the aluminum block.
+    </p>
+    <img src="../assets/project-images/product-design/gasket-1.jpg" width="500">
+    <img src="../assets/project-images/product-design/gasket-2.jpg" width="500">
+    <img src="../assets/project-images/product-design/gasket-3.jpg" width="500">
+    <img src="../assets/project-images/product-design/gasket-4.jpg" width="500">
+    
+    <h1>Assignment 2 - 2.5 DOF Cartesian Motion System</h1>
+    <p>The second project was to design and build a motion system with 2.5 degrees of freedom (DOF). This was
+        acomplished with four different NEMA 17 stepper motors and a driver board that accomodated power control
+        and directional logic for each motor. We used Repetir as a program for sending GCODE to an Arduino library
+        that would then send the appropriate signals to the driver board. The motion system was designed to move an
+        end effector in the x, y, and z directions. The x and y directions were controlled by stepper motors on linear
+        rails with a series of belts and pulleys. The z direction was controlled by a stepper motor that would move a
+        rack and pinion setup. The z axis included a stamp pad which would be used to stamp a piece of paper. In our
+        footprint we included an ink pad and an envelope so the system could stamp an envelope. The final product was
+        a motion system that could move an end effector in the x, y, and z directions. All components were 3D printed.
+    </p>
+    <video width="500" controls>
+        <source src="../assets/project-images/product-design/motion-2.mp4" type="video/mp4">
+    </video>
+    
+    <h1>Assignment 3 - Motor Speed Controller</h1>
+    <p>
+        The final project was to design a system that transports a foot long beam of 8020 aluminum extrusion a five foot distance
+        and back, stop to stop. The challenge was that the beam must be completely free and not connected to the platform it sits on.
+        The bar would be supported by its bottom face only. The objective was thus to minimize the time required to transport the
+        bar there and back. To begin, a simulation was done in SolidWorks to determine the maximum acceleration of the car that would
+        cause it to tip. This agreed closely with the theoretical value calculated with first principles. The cart was made out of some
+        balsa wood, 3D printed motor mounts, 3D printed axle mounts, and wheels that were laser cut and included an O-Ring. The project
+        also required the use of an encoder to make sure the acceleration profiles of the car were met. The final product was a little
+        cart that held the 8020 extrusion on the top and was able to transport the rod there and back in about 15 seconds.
+    </p>    
+    <img src="../assets/project-images/product-design/cart-1.jpg" width="500">
+    <img src="../assets/project-images/product-design/cart-2.jpg" width="500">
+    <video width="500" controls>
+        <source src="../assets/project-images/product-design/cart-3.mp4" type="video/mp4">
+    </video>
+    
+</html>
