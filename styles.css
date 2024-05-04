@@ -1,43 +1,196 @@
 @font-face {
-    font-family: 'Mona Sans';
-    src:
-        url('Mona-Sans.woff2') format('woff2 supports variations'),
-        url('Mona-Sans.woff2') format('woff2-variations');
-    font-weight: 200 900;
-    font-stretch: 75% 125%;
+    font-family: 'Helvetica Bold Italic';
+    src: url('../fonts/helvetica-neue-bold-italic.woff2') format('woff2'),
+        url('../fonts/helvetica-neue-bold-italic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
 }
 
-body {
-    margin: 40px auto;
-    max-width: 650px;
-    line-height: 1.6;
-    font-family: 'Mona-Sans', sans-serif;
-    font-size: 16px;
-    color: #454545;
-    padding: 0 10px;
+@font-face {
+    font-family: 'Helvetica Bold';
+    src: url('../fonts/helvetica-bold.woff2') format('woff2'),
+        url('../fonts/helvetica-bold.woff') format('woff');
+    font-weight: bold;
 }
 
-h1,
-h2,
-h3 {
-    line-height: 1.2;
+@font-face {
+    font-family: 'Helvetica';
+    src: url('../fonts/helvetica.woff2') format('woff2'),
+        url('../fonts/helvetica.woff') format('woff');
 }
 
-.image-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    /* Creates 3 columns */
-    grid-gap: 10px;
-    /* Adjusts the gap between grid items */
+body,
+html {
+    height: 100%;
+    margin: 0;
+    background-color: #222222;
+    color: #FAFAFA;
 }
 
-.image-grid a {
+h1 {
+    font-family: 'Helvetica Bold', sans-serif;
+    font-size: 3rem; /* Adapts size based on the root element's font size */
+    text-align: center;
+}
+
+p {
+    font-family: 'Helvetica', sans-serif;
+}
+
+.logo-button {
     display: block;
+    margin: 10px auto; /* Centers the logo horizontally */
+    width: 100px; /* Adjust size as needed */
 }
 
-.image-grid img {
-    width: 100%;
-    /* Makes images fully occupy their grid cell */
+.logo-button img {
+    pointer-events: none;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Creates two columns */
+    gap: 20px; /* Spacing between grid items */
+    padding: 20px;
+    margin: auto;
+    max-width: 1500px; /* Adjust based on your layout preference */
+}
+
+.grid-item {
+    text-align: center; /* Center-aligns image and text within the grid item */
+}
+
+.grid-item img {
+    width: 100%; /* Makes image responsive */
+    max-width: 500px; /* Limits image size */
     height: auto;
-    /* Keeps image aspect ratio intact */
+    border-radius: 16px; /* Optional: adds rounded corners to images */
+}
+
+.grid-item a:hover p {
+    color: #CC2747; /* Blue color on hover */
+    cursor: pointer; /* Changes the cursor to indicate clickable item */
+}
+
+.grid-item a:hover img {
+    opacity: 0.6; /* Decreases opacity of the image when hovered */
+    cursor: pointer; /* Changes the cursor to indicate clickable item */
+}
+
+.grid-item p {
+    margin-top: 5px; /* Space between image and text */
+    color: #FAFAFA; /* Dark grey color for text */
+    font-size: 30px; /* Larger text for visibility */
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none; /* Removes underline from links */
+    color: inherit; /* Inherits color from parent elements */
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+    /* Full height of the viewport */
+    width: 100vw;
+    /* Full width of the viewport */
+}
+
+.menu-item,
+.logo,
+.text-item {
+    font-family: 'Helvetica Bold Italic', sans-serif;
+    position: absolute;
+    /* Ensures absolute positioning relative to 'container' */
+    text-decoration: none;
+    color: #FAFAFA;
+    /* Default text color */
+}
+
+.menu-item:hover,
+.menu-item#home:hover,
+.menu-item#contact:hover {
+    color: #CC2747;
+    /* Highlight color on hover */
+}
+
+.logo {
+    left: 50%;
+    /* Center horizontally */
+    top: 50%;
+    /* Center vertically */
+    transform: translate(-50%, -50%);
+    /* Adjust position to exact center */
+}
+
+.logo img {
+    width: 350px;
+    /* Sets a fixed width for the logo */
+    border: none;
+}
+
+.logo:hover img {
+    /* Apply your chosen effect here, e.g., opacity or shadow */
+    opacity: 0.6;
+}
+
+#work {
+    left: 12%;
+    /* Use percentages for responsive padding */
+    top: 50%;
+    transform: translateY(-50%);
+    /* Vertically center */
+    font-size: 100px;
+    /* Large font size */
+}
+
+#work-text {
+    left: 7%;
+    /* Use percentages for responsive padding */
+    top: 53%;
+    transform: translateY(-50%);
+    /* Vertically center */
+    font-size: 45px;
+    /* Large font size */
+    color: #101010
+}
+
+#words {
+    right: 12%;
+    /* Use percentages for responsive padding */
+    top: 50%;
+    transform: translateY(-50%);
+    /* Vertically center */
+    font-size: 100px;
+    /* Large font size */
+}
+
+#words-text {
+    right: 10.5%;
+    /* Use percentages for responsive padding */
+    top: 53%;
+    transform: translateY(-50%);
+    /* Vertically center */
+    font-size: 45px;
+    /* Large font size */
+    color: #101010
+}
+
+#home {
+    left: 10%;
+    /* Closer to the edge */
+    bottom: 2%;
+    font-size: 50px;
+    /* Smaller font size */
+    color: #101010
+}
+
+#contact {
+    right: 13%;
+    /* Closer to the edge */
+    bottom: 2%;
+    font-size: 50px;
+    /* Smaller font size */
+    color: #101010
 }
