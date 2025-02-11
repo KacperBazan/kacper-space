@@ -1,0 +1,230 @@
+/* 
+  Optional: If you have a custom font for "KACPER.SPACE",
+  define it here. Otherwise, remove this @font-face and 
+  the font-family override in .website-title.
+*/
+@font-face {
+  font-family: 'KacperFont';
+  src: url('KacperFont.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* A CSS variable for the 'buffer' (gap) at the center line */
+:root {
+  --center-gap: 1rem;
+  /* Adjust to whatever spacing you want */
+}
+
+/* Reset base */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #0D1117;
+}
+
+/* 
+  The outer container takes the full browser height,
+  centers its contents both horizontally & vertically
+*/
+.container {
+  width: 100%;
+  height: 100vh;
+  /* Fill the full view height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* Vertical centering */
+  align-items: center;
+  /* Horizontal centering (for the row + title) */
+}
+
+/* The main row is where we split the screen into halves */
+.main-row {
+  width: 80%;
+  /* Constrain the width (optional) */
+  max-width: 1000px;
+  /* Don’t let it get too wide */
+  display: flex;
+  flex-direction: row;
+  /* Not using wrap so they stay side by side */
+  flex-wrap: nowrap;
+}
+
+/* Left Section: 50% width, pinned to the right edge (the center line) */
+.left-section {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  /* Align content to the 'center' boundary */
+  align-items: center;
+  /* Vertical center in this half */
+  padding-right: var(--center-gap);
+}
+
+/* The square picture */
+.profile-pic {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+  /* Slight rounding; remove if you want a perfect square */
+}
+
+/* Right Section: 50% width, pinned to the left edge (the center line) */
+.right-section {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  /* Align content to the 'center' boundary */
+  align-items: center;
+  /* Vertical center in this half */
+  padding-left: var(--center-gap);
+}
+
+/* The 2×3 grid of buttons */
+.links {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* 2 columns => 3 rows for 6 links */
+  gap: 15px;
+  /* Space between buttons */
+}
+
+/* Button styling */
+.links a {
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: #2D333B;
+  color: #C9D1D9;
+  text-align: center;
+  border-radius: 4px;
+  font-size: 1.5rem;
+  
+  transition: background-color 0.15s ease;
+}
+
+.links a:hover {
+  background-color: #444C56;
+}
+
+/* The Big Title Below */
+.website-title {
+  margin-top: 40px;
+  margin-bottom: 0px;
+  /* only a small gap before the subtitle */
+  font-size: 4rem;
+  text-transform: uppercase;
+  text-align: center;
+  color: #C9D1D9;
+
+  /* Use custom font here if available */
+  font-family: 'KacperFont', Arial, sans-serif;
+}
+
+/* Smaller text (subtitle) under the big title */
+.subtitle {
+  font-size: 1.5rem;
+  /* smaller text size */
+  text-align: center;
+  max-width: 600px;
+  /* optional: limit the width for better readability */
+  color: #C9D1D9;
+  /* slightly lighter color than pure black */
+}
+
+/* Optional: Adjust spacing on the projects page */
+.projects-page {
+  padding: 0px;
+}
+
+/* Home Link Section */
+.home-link {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
+.home-button {
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  /* or your preferred default font */
+  background-color: #2D333B;
+  color: #C9D1D9;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 1.5rem;
+  transition: background-color 0.15s ease;
+}
+
+.home-button:hover {
+  background-color: #444C56;
+}
+
+/* Projects Title */
+.projects-title {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 30px;
+  color: #C9D1D9;
+}
+
+/* 
+  Create a 2-column grid that is centered horizontally.
+  'justify-content: center' keeps the grid from stretching fully,
+  and 'justify-items: center' places each grid item in the middle 
+  of its column.
+*/
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-content: center;
+  /* center the whole grid */
+  justify-items: center;
+  /* center items within each column */
+}
+
+/* 
+  The project link as a block containing image + text.
+  Keep text centered and allow the entire area to be clickable.
+*/
+.project-link {
+  text-decoration: none;
+  color: #C9D1D9;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+
+}
+
+/* 
+  Use a CSS variable to control the size of images easily.
+  Adjust --image-size to set the width/height of the squares.
+*/
+:root {
+  --image-size: 300px;
+  /* Change to 250px, 300px, etc. as desired */
+}
+
+/* Force the images to be squares of var(--image-size) */
+.project-image {
+  width: var(--image-size);
+  height: var(--image-size);
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 10px;
+  border-radius: 8px;
+  transition: transform 0.15s ease
+  /* smooth transition */
+}
+
+/* Hover effect: scale up + shadow */
+.project-link:hover .project-image {
+  transform: scale(1.05);
+  /* slightly bigger */
+}
