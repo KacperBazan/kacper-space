@@ -228,3 +228,56 @@ body {
   transform: scale(1.05);
   /* slightly bigger */
 }
+
+/* Header Section (Home Button + Title) */
+.header-section {
+  display: flex;
+  align-items: center; /* Vertically center the home button and title */
+  justify-content: center; /* Horizontally center the content */
+  gap: 20px; /* Space between the home button and title */
+  margin-bottom: 40px; /* Space below the header */
+}
+
+/* Adjust the home button to align with the title */
+.home-button {
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  background-color: #2D333B;
+  color: #C9D1D9;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 1.5rem;
+  transition: background-color 0.15s ease;
+}
+
+.home-button:hover {
+  background-color: #444C56;
+}
+
+/* Ensure the projects title is centered and aligned */
+.projects-title {
+  margin: 0; /* Remove default margin */
+  font-size: 3rem;
+  color: #C9D1D9;
+}
+
+/* Quotes Title Styling */
+.quotes-title {
+  margin: 0; /* Remove default margin */
+  font-size: 3rem;
+  color: #C9D1D9;
+}
+
+/* Simple Quotes List Styling */
+.quotes-list {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  color: #C9D1D9; /* Text color */
+  font-size: 1.2rem; /* Slightly larger text for readability */
+  line-height: 0.75; /* Spacing between lines */
+}
+
+.quotes-list p {
+  margin-bottom: 20px; /* Space between quotes */
+}
